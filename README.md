@@ -1,13 +1,3 @@
-# ![Node/Express/Mongoose Example App](project-logo.png)
-
-[![Build Status](https://travis-ci.org/anishkny/node-express-realworld-example-app.svg?branch=master)](https://travis-ci.org/anishkny/node-express-realworld-example-app)
-
-> ### Example Node (Express + Mongoose) codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
-
-<a href="https://thinkster.io/tutorials/node-json-api" target="_blank"><img width="454" src="https://raw.githubusercontent.com/gothinkster/realworld/master/media/learn-btn-hr.png" /></a>
-
-This repo is functionality complete — PRs and issues welcome!
-
 # Getting started
 
 To get the Node server running locally:
@@ -16,9 +6,6 @@ To get the Node server running locally:
 - `npm install` to install all required dependencies
 - Install MongoDB Community Edition ([instructions](https://docs.mongodb.com/manual/installation/#tutorials)) and run it by executing `mongod`
 - `npm run dev` to start the local server
-
-Alternately, to quickly try out this repo in the cloud, you can [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/realworld)
-
 # Code Overview
 
 ## Dependencies
@@ -49,4 +36,12 @@ Requests are authenticated using the `Authorization` header with a valid JWT. We
 
 <br />
 
-[![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
+Start with: npm run dev
+
+##start mongo
+Go to the directory: "Program Files\MongoDB\Server\3.6\bin"
+Run mongo with: mongod.exe --dbpath /users/iavit/mongo-data
+
+##run server
+in seperate terminal - 
+Start with: npm run dev
